@@ -1,0 +1,85 @@
+
+body{
+  margin-top:50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+  h1{
+    text-align: center;
+    font-family: "Judson";
+    font-size: 50px;
+  }
+  h2 {
+    position:relative;
+    font-family: "Judson";
+  }
+  .input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+  }
+ .container {
+    display: flex;
+}
+.table-container,
+.chart-container {
+    flex: 1;
+    margin: 0 10px; /* Adjust the margin as needed */
+}
+label{
+  font-size: 20px;
+}
+  .input-section label {
+    font-family: 'Judson';
+    font-weight: bold;
+    margin-right: 1vw;
+    margin-left: 2vw;
+    margin-top:3.5px;
+  }
+  
+   .input-section input[type="number"], .input-section input[type="date"] {
+     padding: 5px;
+    margin-right: 10px; 
+  }
+  
+  button{
+    font-family: 'Judson';
+    border-color: #546F34;
+  }
+  .input-section button {
+    margin-left: 15px;
+    padding: 5px 10px; 
+    background-color: #7DA64E;
+    color: white;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  th, td {
+    border: 1.5px solid #546F34;
+    padding: 10px;
+    text-align: center; 
+    font-family: 'Judson';
+  }  
+  th {
+    background-color: #7DA64E;
+    color: white;
+  }
+  tfoot td {
+    font-weight: bold;
+  }
+  .delete-btn {
+    padding: 2px 8px;
+    background-color: #f44336;
+    color: white;
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer;
+}
+
